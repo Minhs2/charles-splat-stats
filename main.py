@@ -14,11 +14,12 @@ def fetchStats():
     finalStr = " | Games vs Order: " + numbersArr[0] + " | Win% vs Order: " + numbersArr[1] + " | Games vs Chaos: " + numbersArr[2] + " | Win% vs Chaos: " + numbersArr[3]
     file = open("OBSOutput.txt","w")
     file.write(finalStr)
+    file.close()    
     
 def main():
-    while True:
+    #while True:
         fetchStats()
-        time.sleep(10)
+        #time.sleep(60)
 
 if __name__ == '__main__':
     main()
