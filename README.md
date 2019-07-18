@@ -16,3 +16,4 @@ If worked upon, can easily add:
 - Toggle whether the user wants to manually update or not
 - A GUI
 - A way to stop updating the txt file without forceful termination
+- A more elegant way to format all the values in the array for the final string
