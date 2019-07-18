@@ -17,9 +17,9 @@ def fetchStats():
     file.close()    
     
 def main():
-    #while True:
+    while True:
         fetchStats()
-        #time.sleep(60)
+        time.sleep(10)
 
 if __name__ == '__main__':
     main()
