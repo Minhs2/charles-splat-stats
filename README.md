@@ -15,3 +15,4 @@ If worked upon, can easily add:
 - Flexibility for other formatted spreadsheets
 - Toggle whether the user wants to manually update or not
 - A GUI
+- A way to stop updating the txt file without forceful termination
